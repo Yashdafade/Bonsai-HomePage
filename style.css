@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: #fff;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 240px;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    color: #00b289;
+    margin-left: 200px;
+    column-gap: 5px;
+}
+
+header .nav{
+    display: flex;    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .nav li a{
+    text-decoration: none;
+    color: #4c4d5f;
+    margin: 10px;
+}
+
+header .nav li :hover{
+    text-decoration: underline;
+    transition: 5s;
+}
+
+header .link-btn{
+    display: flex;
+    column-gap: 10px;
+}
+
+header .link-btn .log-btn{
+    box-sizing: border-box;
+    border: 2px solid #00b289;
+    border-radius: 5px;
+    background-color: white;
+    color: #00b289;
+    height: 30px;
+    width: 70px;
+    transition: .3s ease-in-out;
+}
+
+header .link-btn .Start-btn{
+    box-sizing: border-box;
+    border: 2px solid #00b289;
+    border-radius: 5px;
+    background-color: #00b289;
+    color: white;
+    height: 30px;
+    width: 95px;
+    transition: .3s ease-in-out;
+}
+
+header .link-btn .log-btn:hover{
+    background-color: #00b289;
+    color: white;
+}
+
+header .link-btn .Start-btn:hover{
+    background-color: #fff;
+    color: #00b289;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content .pricing i{
+    font-size: 25px;
+}
+
+.nm{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.pricing{
+    display: flex;
+    column-gap: 250px;
+}
+
+.pricing .pr1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 9px;
+    height: 480px;
+    width: 380px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.content .pricing .nme{
+    padding: 8px;
+    font-size: 2em;
+}
+
+.content .pricing span{
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+.content .pricing hr{
+    margin-top: 17px;
+    border: none;
+    border: 1px solid #00b289;
+}
+
+.content .pricing h4{
+    font-size: 1.3em;
+}
+
+.content .pricing p{
+    font-size: 0.99em;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.content .pricing button{
+    height: 35px;
+    border: 1px solid #00b289;
+    border-radius: 8px;
+    background-color: #00b289;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.content .pricing button:hover{
+    background-color: #fff;
+    color: #00b289;
+}
+
+.add{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.add .names{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add .grid h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.add .grid .box{ 
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    box-sizing: border-box;
+    box-shadow: blanchedalmond;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    height: 120px;
+    align-items: center;
+    width: 900px;
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+.add .grid .box .cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add .grid .box .cost p{
+    font-size: 1.5em;
+}
+.add .grid .box .cost span{
+    font-size: .7em;
+}
+
+.grid .box a{
+    text-decoration: none;
+    color: #00b289;
+    cursor: pointer;
+}
+.atc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atc .another{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aae69e;
+    width:900px;
+    height: 190px;
+    margin-top: 80px;
+    column-gap: 120px;
+}
+
+.atc .another .txt p{
+    font-size: 2.4em;
+    column-gap: 10px;
+    background-color: #aae69e;
+}
+
+.atc .another .txt span{
+    background-color: #aae69e;
+    color: #00b289;
+}
+
+.atc .another button{
+    height: 35px;
+    width: 100px;
+    border: 1px solid #00b289;
+    background-color: #00b289;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.atc .another  button:hover{
+    background-color: #fff;
+    color: #00b289;
+}
+
+.que{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.que .cen{
+    margin-top: 50px;
+}
+
+.que .cen .frq{
+    font-size: 2.2em;
+    text-align: center;
+    color: #00b289;
+}
+
+.que .cen .ques{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+    row-gap: 8px;
+    margin-top: 10px;
+}
+
+.que .cen .ques .q{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;   
+}
+
+footer .ele a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .ele{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+    justify-content: center;
+    column-gap: 500px;
+}
+
+footer .ele .head{
+    font-weight: 800;
+}
+
+footer .ele .li1 .sh,.sm1,.li2 .sh2, .sm2 , .temp .sh1, .li3 .sh3{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .li1  .sh, .li3 .sh3{
+    margin-top: 50px;
+}
+
+footer .li2  .sh2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer .li2  .sm2{
+    margin-bottom: 20px;
+}
+
+footer .ele .li2 .temp .sh1{
+    margin-top: 30px;
+}
+
+footer .ele span{
+    color: #00b289;
+    font-weight: 800;
+}
+
